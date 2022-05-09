@@ -83,9 +83,9 @@ TRANSITION
 ===============
 */
 
-:root {
+/* :root {
   --transition: all 0.3s linear;
-}
+} */
 
 /*
 =============== 
@@ -114,11 +114,11 @@ HOVER OVERLAY
 ===============
 */
 
-:root {
+/* :root {
   --img-transition: 0.3s;
   --img-hidden: hidden;
   --img-scale: scale(1.1);
-}
+} */
 
 @media screen and (min-width: 968px) {
   :root {
@@ -312,7 +312,7 @@ NAV
     height: 100%;
     box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
     padding: 3rem;
-    transition: 0.4s;
+    /* transition: 0.4s; */
   }
 }
 
@@ -328,9 +328,9 @@ NAV
   text-transform: uppercase;
 }
 
-.nav-link:hover {
+/* .nav-link:hover { 
   color: var(--text-color);
-}
+}*/
 
 .nav-close {
   position: absolute;
@@ -338,7 +338,7 @@ NAV
   right: 1rem;
   font-size: 1.5rem;
   color: var(--title-color);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 /* show menu */
@@ -458,9 +458,9 @@ HOME
   transition: var(--img-transition);
 }
 
-.home-info-img:hover {
+/* .home-info-img:hover { 
   transform: var(--img-scale);
-}
+}*/
 
 /*
 ===============
@@ -477,9 +477,9 @@ BUTTON
   transition: 0.3s;
 }
 
-.button:hover {
+/* .button:hover { 
   background-color: var(--first-color-alt);
-}
+}*/
 
 .button-flex {
   display: flex;
@@ -492,9 +492,9 @@ BUTTON
   padding: 0;
 }
 
-.button-link:hover {
+/* .button-link:hover { 
   background: none;
-}
+}*/
 
 /*
 ===============
@@ -532,15 +532,15 @@ ABOUT
   width: 130px;
 }
 
-.about-img-one,
+/* .about-img-one,
 .about-img-two {
   transition: var(--img-transition);
-}
+}*/
 
-.about-img-one:hover,
-.about-img-two:hover {
+/* .about-img-one:hover, 
+ .about-img-two:hover { 
   transform: var(--img-scale);
-}
+} */
 
 /*
 ===============
@@ -580,9 +580,9 @@ DISCOVER
   transition: var(--img-transition);
 }
 
-.discover-img:hover {
+/* .discover-img:hover { 
   transform: var(--img-scale);
-}
+}*/
 
 .swiper-container-3d .swiper-slide-shadow-left,
 .swiper-container-3d .swiper-slide-shadow-right {
@@ -640,10 +640,10 @@ EXPERIENCE
   transition: var(--img-transition);
 }
 
-.experience-img-one:hover,
-.experience-img-two:hover {
+/* .experience-img-one:hover, */
+/* .experience-img-two:hover { 
   transform: var(--img-scale);
-}
+}*/
 
 .experience-overlay {
   overflow: var(--img-hidden);
@@ -700,9 +700,9 @@ PLACES
   overflow: var(--img-hidden);
 }
 
-.place-card:hover .place-img {
+/* /* .place-card:hover .place-img { 
   transform: var(--img-scale);
-}
+}*/
 
 .place-img {
   transition: var(--img-transition);
@@ -812,14 +812,14 @@ SPONSORS
   row-gap: 3.5rem;
 }
 
-.sponsor-content:hover .sponsor-img {
+/* .sponsor-content:hover .sponsor-img { 
   filter: invert(0.5);
-}
+}*/
 
 .sponsor-img {
   width: 90px;
-  filter: invert(0.7);
-  transition: var(--img-transition);
+  /* filter: invert(0.7);
+  transition: var(--img-transition); */
 }
 
 /*
@@ -867,9 +867,9 @@ FOOTER
   color: var(--text-color);
 }
 
-.footer-link:hover {
+/* .footer-link:hover { 
   color: var(--title-color);
-}
+}*/
 
 .footer-rights {
   display: flex;
@@ -890,9 +890,9 @@ FOOTER
   justify-content: center;
 }
 
-.footer-terms-link:hover {
+/* .footer-terms-link:hover { 
   color: var(--text-color);
-}
+}*/
 
 /*
 ===============
@@ -911,10 +911,10 @@ SCROLL UP
   transition: 0.4s;
 }
 
-.scrollup:hover {
+/* .scrollup:hover { 
   background-color: var(--first-color-alt);
   opacity: 1;
-}
+}*/
 
 .scrollup-icon {
   color: var(--white-color);
@@ -941,9 +941,9 @@ SCROLL BAR
   background-color: var(--scroll-thumb-color);
 }
 
-::-webkit-scrollbar-thumb:hover {
+/* ::-webkit-scrollbar-thumb:hover { 
   background-color: var(--text-color-light);
-}
+}*/
 
 /*
 ===============
@@ -1002,9 +1002,9 @@ MEDIA QUERIES
     color: var(--white-color);
     text-transform: initial;
   }
-  .nav-link:hover {
+  /* .nav-link:hover { 
     color: var(--white-color);
-  }
+  }*/
     .nav-dark {
     position: initial;
   }
